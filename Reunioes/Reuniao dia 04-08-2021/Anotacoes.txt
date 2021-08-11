@@ -1,0 +1,6 @@
+
+Reunião dia 04/08/2021
+Não compareceram: Guilherme 
+
+Tentamos implementar uma mecanica envolvendo audio por região, mas deu errado. No mais, nos reunimos para dar continuidade ao 
+trabalho esquematisado ontem.
