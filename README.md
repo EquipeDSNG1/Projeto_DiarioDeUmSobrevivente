@@ -19,4 +19,4 @@ git clone https://github.com/EquipeDSNG1/Projeto_DiarioDeUmSobrevivente.git
 # Executar o arquivo .exe
 \Projeto_DiarioDeUmSobrevivente\Jogo\Codigo
 ```
-![tela_executar]()
+![tela_executar](https://github.com/EquipeDSNG1/assents/blob/main/Tela_executavel.png)
