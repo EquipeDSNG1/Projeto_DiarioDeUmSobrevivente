@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -20,7 +21,6 @@ public class MovePlayer : MonoBehaviour
             anim.SetFloat("horizontalidle", movement.x);
             anim.SetFloat("verticalidle", movement.y);
         }
-
         transform.position = transform.position + movement * speed * Time.deltaTime;
     }
 }
