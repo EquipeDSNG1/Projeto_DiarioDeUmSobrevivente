@@ -4,17 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class exit : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+{   
+    
+    void Start(){}
+
+    void Update(){
+        if (Input.GetKeyDown(KeyCode.Escape)){
+            Application.Quit();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
 }
