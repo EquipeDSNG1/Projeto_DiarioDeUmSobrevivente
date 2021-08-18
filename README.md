@@ -7,16 +7,16 @@ Diário de um Sobrevivente é um jogo de perspectiva top-down, ação e sobreviv
 A avaliação consiste em aplicar nossos conceitos com Unity, Try catch e GitHub.
 ## Telas do jogo: 
 
-![tela_inicial]() ![tela_boss]()
+![tela_inicial]() ![tela_boss](https://github.com/EquipeDSNG1/assents/blob/main/Boss.png)
 
 # Instaladores: 
-Pré-requisitos: 
-
+### Clonar repositório
 ```bash
-# Clonar repositório
 git clone https://github.com/EquipeDSNG1/Projeto_DiarioDeUmSobrevivente.git
+```
 
-# Executar o arquivo DiarioDeUmSobrevivente.exe
+### Executar o arquivo DiarioDeUmSobrevivente.exe
+```bash
 ...\Projeto_DiarioDeUmSobrevivente\Jogo\Codigo\Build1
 ```
 ![tela_executar](https://github.com/EquipeDSNG1/assents/blob/main/Tela_executavel.png)
