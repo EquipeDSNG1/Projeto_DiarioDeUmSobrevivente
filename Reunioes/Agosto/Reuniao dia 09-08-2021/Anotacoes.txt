@@ -1,0 +1,4 @@
+Reunião dia 09/08/2021
+Não compareceram: Guilherme 
+
+Nós nos reunimos para dar continuidade ao desenvolvimento do jogo, hoje conseguimos implementar a movimentação do personagem.

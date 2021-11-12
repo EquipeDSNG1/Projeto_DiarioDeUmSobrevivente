@@ -1,0 +1,4 @@
+Reunião dia 10/11/2021
+Não compareceram: Guilherme, Vinicius
+
+Foi implementada a mecanica de itens no jogo.

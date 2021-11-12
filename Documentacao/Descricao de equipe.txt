@@ -1,7 +1,7 @@
 Integrantes:
 	Vinícius Gabriel Limoeiro Cauvilla 	Nº: 38		| Vermelho |
-	João vitor Pereira			Nº: 21   	|  Laranja |
-	Stefanie Barbosa Alceno			Nº: 35		|  Amarelo |
+	João vitor Pereira			Nº: 21   	|  Amarelo |
+	Stefanie Barbosa Alceno			Nº: 35		|  Laranja |
 	Guilherme Henrique Oliveira Silveira 	Nº: 18		|   Verde  |
 	Kennedy Emanoel da Silveira Barbosa	Nº: 25		|   Azul   |
 	André Dias Balbino 			Nº: 03		|   Roxo   |
