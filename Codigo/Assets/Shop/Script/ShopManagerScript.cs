@@ -8,13 +8,14 @@ public class ShopManagerScript : MonoBehaviour
 {
 
     public int[,] shopItems = new int[5,5];
+    public string[,] shopName = new string[5,5];
     public float coins;
     public Text CoinsTXT;
 
 
     void Start()
     {
-        CoinsTXT.text = "Coins:" + coins.ToString();
+        CoinsTXT.text = ":" + coins.ToString();
 
         //ID's
         shopItems[1, 1] = 1;
@@ -34,6 +35,11 @@ public class ShopManagerScript : MonoBehaviour
         shopItems[3, 3] = 0;
         shopItems[3, 4] = 0;
 
+        //Name
+        shopName[4,1] = "FACA";
+        shopName[4,2] = "FACÃO";
+        shopName[4,3] = "ESPINGARDA";
+        shopName[4,4] = "MACHADO";
     }
 
    
@@ -45,7 +51,7 @@ public class ShopManagerScript : MonoBehaviour
         {
             coins -= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID];
             shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID]++;
-            CoinsTXT.text = "Coins:" + coins.ToString();
+            CoinsTXT.text = ":" + coins.ToString();
             ButtonRef.GetComponent<ButtonInfo>().QuantityTxt.text = shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID].ToString();
 
         }
