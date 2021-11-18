@@ -1,0 +1,4 @@
+Reunião dia 11/11/2021
+Não compareceram: Guilherme, Vinicius, André
+
+Foi implementada a mecanica de compras no jogo. O rework do mapa continua em andamento.

@@ -1,0 +1,4 @@
+Reunião dia 18/11/2021
+Não compareceram: Guilherme, Vinicius, André
+
+Prosseguimos com o desenvolvimento do jogo, arrumando alguns detalhes esteticos.

@@ -1,0 +1,4 @@
+Reunião dia 17/11/2021
+Não compareceram: Guilherme, Vinicius, André, Stefanie
+
+Agora temos um sistema de moedas no jogo, além disso o personagem também está atirando.
