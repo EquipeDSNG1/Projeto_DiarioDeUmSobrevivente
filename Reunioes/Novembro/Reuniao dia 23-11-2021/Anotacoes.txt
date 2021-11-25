@@ -1,0 +1,4 @@
+Reunião dia 18/11/2021
+Não compareceram: Guilherme, Vinicius, André
+
+Começamos a fazer testes com a loja e o NPC comerciante foi criado.
