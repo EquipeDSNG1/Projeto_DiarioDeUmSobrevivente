@@ -8,6 +8,7 @@ public class Inventory : MonoBehaviour
     public RectTransform content;
     public List <GameObject> itens;
     public int index1 =-1, index2 =1;
+    public static bool desenhaItens;
 
     public void AddItem(GameObject item)
     {
@@ -16,7 +17,7 @@ public class Inventory : MonoBehaviour
         desenhaItem();
     }
 
-    public void TrocaItem(int index)
+    /* public void TrocaItem(int index)
     {
         if(index1 == -1)
         {
@@ -36,31 +37,32 @@ public class Inventory : MonoBehaviour
             index2 =-2;
             desenhaItem();
         }
-    }
+    }  */
 
-    void desenhaItem()
+    protected void desenhaItem()
     {
-    while(content.childCount>0)
-    {
-        Transform filho = content.GetChild(0);
-        filho.SetParent(null);
-        Destroy(filho.gameObject);
-    }
-
-    for (int i =0; i<itens.Count; i++)
+        desenhaItens = true;
+        while(content.childCount>0)
         {
-            GameObject item = Instantiate(itens[content.childCount], content.position, Quaternion.identity) as GameObject;
-            item.transform.SetParent(content.transform);
+            Transform filho = content.GetChild(0);
+            filho.SetParent(null);
+            Destroy(filho.gameObject);
         }
+
+        for (int i =0; i < itens.Count; i++)
+            {
+                GameObject item = Instantiate(itens[i], content.position, Quaternion.identity) as GameObject;
+                item.transform.SetParent(content.transform);
+            }
     }
 
 
     void Start()
     {
-        
+        desenhaItem();
     }
     void Update()
     {
-        desenhaItem();
+    
     }
 }

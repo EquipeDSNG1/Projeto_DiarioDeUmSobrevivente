@@ -13,15 +13,15 @@ public class Item : MonoBehaviour
     public int Qnt_max, Qnt_atual;
     public bool Destruivel;
 
-    void TrocaItem ()
+    /* void TrocaItem ()
     {
         Player._inventoryPlayer.TrocaItem(index);
-    }
+    } */
 
     void Start()
     {
-        Button aux_ = GetComponent<Button>();
-        aux_.onClick.AddListener(TrocaItem);
+        /* Button aux_ = GetComponent<Button>();
+        aux_.onClick.AddListener(TrocaItem); */
     }
 
     // Update is called once per frame
