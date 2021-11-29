@@ -6,12 +6,12 @@ public class InventoryHud : Inventory
 {
     void ItensInGame()
     {
-        if (desenhaItens)
+        if (_desenhaItens)
         {
             int qntItens = (Player._inventoryPlayer.itens.Count > 3) ? 3 : Player._inventoryPlayer.itens.Count;
             itens = Player._inventoryPlayer.itens.GetRange(0, qntItens);
             desenhaItem();
-            desenhaItens = false;
+            _desenhaItens = false;
         }
     }
     void Start()
