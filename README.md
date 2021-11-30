@@ -17,6 +17,6 @@ git clone https://github.com/EquipeDSNG1/Projeto_DiarioDeUmSobrevivente.git
 
 ### Executar o arquivo DiarioDeUmSobrevivente.exe
 ```bash
-...\Projeto_DiarioDeUmSobrevivente\Jogo\Codigo\Build2
+...\Projeto_DiarioDeUmSobrevivente\Jogo\Codigo\Build1
 ```
 ![tela_executar](https://github.com/EquipeDSNG1/assents/blob/main/Tela_executavel.png)
